@@ -1,0 +1,17 @@
+Gebze Technical University Department of Computer Engineering - CSE 344 System Programming Spring 2018-19, Final Project
+
+> BibakBOXServer [directory] [threadPoolSize] [portnumber]
+> BibakBOXClient [dirName] [ip address] [portnumber]
+
+	* Final projesinde Server - Client mimarisi kuruldu. Bağlantı adresi ve serverin portu ile bağlantı kurulur. 
+	* Client server'a bağlandığında kendi tüm alt klasör ve dosyalarını, server[directory]/client[dirName] olarak kopyalar.
+	* Online iken tüm işlemler server'a yansıtılır. Ekleme, modifikasyon, çıkarma.
+	* Client bağlantıyı koparır, tekrar bağlanırsa. Sildiği dosyalar varsa geri yüklenir.
+	* Proje tek client üzerinden çalışır, multi-threaded yapısı kurulmamıştır.
+	
+FATİH DURAL
+151044041
+
+	
+
+
